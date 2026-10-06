@@ -1,0 +1,26 @@
+# Python
+venv/
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+*.db
+*.log
+
+# Secrets and local settings (the .env.example files ARE committed)
+.env
+.env.*
+!.env.example
+
+# Node / frontend build
+node_modules/
+dist/
+
+# Editors and OS
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+
+# Leftovers from local work
+src_backup/

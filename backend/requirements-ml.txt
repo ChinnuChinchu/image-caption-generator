@@ -1,0 +1,3 @@
+# Heavy machine-learning packages, only needed when CAPTION_BACKEND=local
+torch
+transformers
