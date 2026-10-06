@@ -160,7 +160,7 @@ Every `/images` route needs a login token and only returns your own images. Some
 - **Caption quality:** BLIP base writes short, generic captions and does best on real photographs. Illustrations and posters can give odd results (repetition is reduced but not eliminated). A larger model, or a model prompted for longer descriptions, would help.
 - **Not deployed:** the website, API and database fit on free hosting tiers, but BLIP needs about 1 to 2 GB of RAM, more than free web servers offer. Captioning goes through one small interface (`services/captioning.py`), so a hosted-model implementation can be added without touching the rest of the app.
 - **No automated test suite yet.**
-- Login tokens are kept in `localStorage` and there are no refresh tokens or rate limits. This is fine for a portfolio project but would need hardening for real use.
+- Login tokens are kept in `localStorage` and there are no refresh tokens or rate limits. 
 
 ## Credits and licenses
 
